@@ -1,17 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import Head from "next/head";
+import MainLayout from "../../layouts/MainLayout";
 
 function About() {
   return (
-    <div>
-      <Head>
-        <title>About</title>
-      </Head>
-      <h1>
-        Go to <Link href="/">Home</Link>
+    <MainLayout>
+      <h1 className={"title"}>
+        Go to <Link href="/contact">Contact</Link>
       </h1>
-    </div>
+    </MainLayout>
   );
 }
 

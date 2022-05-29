@@ -1,13 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import MainLayout from "../../layouts/MainLayout";
 
 function Contact() {
   return (
-    <div>
-      <h1>
+    <MainLayout>
+      <h1 className={'title'}>
         Go to <Link href="/">Home from Contact</Link>
       </h1>
-    </div>
+    </MainLayout>
   );
 }
 
